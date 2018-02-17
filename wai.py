@@ -7,7 +7,7 @@ import sys
 #
 # wai version
 #
-__version__ = 0.1
+__version__ = 0.2
 
 if __name__ == '__main__':
-    print(sys.version)
+    print("I am a Python script running {}".format(sys.version))
